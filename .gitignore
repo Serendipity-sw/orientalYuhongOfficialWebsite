@@ -1,0 +1,6 @@
+orientalYuhongOfficialWebsite
+*.exe
+*.pid
+jstmp/*
+/.idea
+.idea/vcs.xml
