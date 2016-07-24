@@ -3,24 +3,432 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <script src="../js/jquery-2.1.0.min.js"></script>
+    <script src="../js/jquery.mCustomScrollbar.concat.min.js"></script>
 </head>
 <body>
 <!--头部区域-->
 <div class="headArea">
-<div class="content">
-    <img src="../images/logoIcon.png" alt="" class="icon">
-    <div class="menuList">
-        <span class="title">我的项目</span>
-        <span class="title">经典项目</span>
-        <span class="title">项目对比</span>
-        <span class="title">工艺展示</span>
-        <span class="title">标准施工</span>
+    <div class="content">
+        <img src="../images/logoIcon.png" alt="" class="icon">
+
+        <!--头部菜单栏-->
+        <div class="menuList">
+            <span class="title select">我的项目</span>
+            <span class="title">经典项目</span>
+            <span class="title">项目对比</span>
+            <span class="title">工艺展示</span>
+            <span class="title">标准施工</span>
+        </div>
+        <!--头部菜单栏-->
+
+        <!--用户区域-->
+        <div class="userArea">
+            <img src="../images/redFlag.png" alt="" class="userPhoto">
+            <div class="userInfoArea">
+                <span class="userName">Hi,Simple</span>
+                <span class="remark">北京东方雨虹防水工程有限公司</span>
+                <ul>
+                    <li>退出</li>
+                    <li>个人资料</li>
+                    <li>设置</li>
+                </ul>
+            </div>
+        </div>
+        <!--用户区域-->
     </div>
-    <div class="userArea">
-        img[src="../"]
-    </div>
-</div>
 </div>
 <!--头部区域-->
+
+<!--内容区域-->
+<div class="content">
+    <!--左侧列表区域-->
+    <div class="leftArea">
+
+        <!--左侧菜单区域-->
+        <div class="menuArea">
+            <span class="title select">材料项目</span>
+            <span class="title">施工项目</span>
+        </div>
+        <!--左侧菜单区域-->
+
+        <!--材料项目区域-->
+        <div class="materialListArea">
+            <!--筛选选择区域-->
+            <div class="selectArea">
+                <span class="select">全部(120)</span>
+                <span>在施工程(6)</span>
+                <span>已完工程(6)</span>
+            </div>
+            <!--筛选选择区域-->
+
+            <!--列表区域-->
+            <ul class="projectList">
+                <li class="rows">
+                    <div class="projectEndIcon"></div>
+                    <span class="endProject">西二旗领袖硅谷12号楼2单元202</span>
+                </li>
+                <li class="rows">
+                    <div class="projectEndIcon"></div>
+                    <span class="endProject">西二旗领袖硅谷12号楼2单元202</span>
+                </li>
+                <li class="rows">
+                    <div class="projectEndIcon"></div>
+                    <span class="endProject">西二旗领袖硅谷12号楼2单元202</span>
+                </li>
+                <li class="rows">
+                    <div class="projectStateIcon"></div>
+                    <span class="noProcess">西二旗领袖硅谷12号楼2单元202</span>
+                </li>
+                <li class="rows">
+                    <div class="projectStateIcon"></div>
+                    <span class="noProcess">西二旗领袖硅谷12号楼2单元202</span>
+                </li>
+            </ul>
+            <!--列表区域-->
+        </div>
+        <!--材料项目区域-->
+
+        <!--施工项目区域-->
+        <div class="constructionListArea">
+            <!--筛选选择区域-->
+            <div class="selectArea">
+                <span class="select">全部(120)</span>
+                <span>在施工程(6)</span>
+                <span>已完工程(6)</span>
+            </div>
+            <!--筛选选择区域-->
+
+            <!--列表区域-->
+            <ul class="projectList">
+                <li class="rows">
+                    <div class="projectEndIcon"></div>
+                    <span class="endProject">西二旗领袖硅谷12号楼2单元202</span>
+                </li>
+                <li class="rows">
+                    <div class="projectEndIcon"></div>
+                    <span class="endProject">西二旗领袖硅谷12号楼2单元202</span>
+                </li>
+                <li class="rows">
+                    <div class="projectEndIcon"></div>
+                    <span class="endProject">西二旗领袖硅谷12号楼2单元202</span>
+                </li>
+                <li class="rows">
+                    <div class="projectStateIcon"></div>
+                    <span class="noProcess">西二旗领袖硅谷12号楼2单元202</span>
+                </li>
+                <li class="rows">
+                    <div class="projectStateIcon"></div>
+                    <span class="noProcess">西二旗领袖硅谷12号楼2单元202</span>
+                </li>
+            </ul>
+            <!--列表区域-->
+        </div>
+        <!--施工项目区域-->
+    </div>
+    <!--左侧列表区域-->
+
+    <!--右部显示区域-->
+    <div class="contentArea">
+        <!--头部选项-->
+        <div class="headSelectArea">
+            <span class="select">项目信息</span>
+            <span>现场图片</span>
+        </div>
+        <!--头部选项-->
+
+        <!--项目信息内容区域-->
+        <div class="projectInfoArea">
+
+            <!--项目信息区域-->
+            <div class="titleArea"><span class="projectInfoTitle">项目信息</span></div>
+            <div class="projectInfo">
+                <div class="left">
+                    <img src="../images/redFlag.png" alt="" class="userPhoto">
+                    <span class="userName">项目经理-宋江</span>
+                    <span class="remark">二级建造师,有丰富的项目管理经验,累积完成项目达到60个以上</span>
+                </div>
+                <div class="right">
+                    <div class="leftArea">
+                        <div class="rows"><span class="title">合同编号:</span><span class="value">11229877679</span></div>
+                        <div class="rows"><span class="title">地址</span><span class="value">北京市海定区学院路</span></div>
+                        <div class="rows"><span class="title">类型:</span><span class="value">住宅地产</span></div>
+                        <div class="rows"><span class="title">规模:</span><span class="value">1500</span></div>
+                        <div class="rows"><span class="title">创建日期:</span><span class="value">2016-02-01</span></div>
+                        <div class="rows"><span class="title">有效日期:</span><span class="value">2016-02-22</span></div>
+                        >
+                    </div>
+                    <div class="rightArea">
+                        <div class="rows"><span class="title">合同金额:</span><span class="value">60,000元</span></div>
+                        <div class="rows"><span class="title">施工日期:</span><span class="value">2016-04-05</span></div>
+                        <div class="rows"><span class="title">施工日期:</span><span class="value">2016-05-22</span></div>
+                        <div class="rows"><span class="title">工程做法:</span><span class="value">混凝土屋面SBS I PY PE 3MM+ SBS IPY M PE 3MM; 彩钢屋面</span>
+                        </div>
+                        <div class="rows"><span class="title">付款条件:</span><span class="value">30天付清</span></div>
+                    </div>
+                </div>
+            </div>
+            <!--项目信息区域-->
+
+            <!--项目进度区域-->
+            <div class="titleArea"><span class="projectProcessTitle">项目进度</span></div>
+            <div class="processArea">
+                <div class="progressRows">
+                    <img src="../images/totalProgress.png" alt="">
+                    <span class="title">总进度</span>
+                    <div class="processArea">
+                        <span class="dateTime">03.10</span>
+                        <div class="progressBarArea">
+                            <div class="progressBar" style="width: 90%;"></div>
+                        </div>
+                        <span class="number" style="width: 90%;">10/100</span>
+                    </div>
+                    <span class="scheduleNumber">10%</span>
+                </div>
+                <div class="dottedLine"></div>
+                <div class="progressRows">
+                    <a href="javascript:void(0);">平展面</a>
+                    <span class="title" data-src="startWord">开工</span>
+                    <ul data-src="startWord">
+                        <li>开工</li>
+                        <li>开工</li>
+                        <li>开工</li>
+                        <li>开工</li>
+                    </ul>
+                    <div class="processArea">
+                        <span class="dateTime">03.10</span>
+                        <div class="progressBarArea">
+                            <div class="progressBar" style="width: 90%;"></div>
+                        </div>
+                        <span class="number" style="width: 90%;">10/100</span>
+                    </div>
+                    <span class="scheduleNumber">10%</span>
+                </div>
+                <div class="progressRows">
+                    <a href="javascript:void(0);">顶板</a>
+                    <span class="title" data-src="goIn">进场</span>
+                    <ul data-src="goIn">
+                        <li>开工</li>
+                        <li>开工</li>
+                        <li>开工</li>
+                        <li>开工</li>
+                    </ul>
+                    <div class="processArea">
+                        <span class="dateTime">03.10</span>
+                        <div class="progressBarArea">
+                            <div class="progressBar" style="width: 90%;"></div>
+                        </div>
+                        <span class="number" style="width: 90%;">10/100</span>
+                    </div>
+                    <span class="scheduleNumber">10%</span>
+                </div>
+                <div class="progressRows">
+                    <a href="javascript:void(0);">立墙</a>
+                    <span class="title" data-src="endWord">完工</span>
+                    <ul data-src="endWord">
+                        <li>开工</li>
+                        <li>开工</li>
+                        <li>开工</li>
+                        <li>开工</li>
+                    </ul>
+                    <div class="processArea">
+                        <span class="dateTime">03.10</span>
+                        <div class="progressBarArea">
+                            <div class="progressBar" style="width: 90%;"></div>
+                        </div>
+                        <span class="number" style="width: 90%;">10/100</span>
+                    </div>
+                    <span class="scheduleNumber">1%</span>
+                </div>
+                <div class="progressRows">
+                    <a href="javascript:void(0);">地下室</a>
+                    <span class="title">签证</span>
+                    <div class="processArea">
+                        <span class="dateTime">03.10</span>
+                        <div class="progressBarArea">
+                            <div class="progressBar" style="width: 90%;"></div>
+                        </div>
+                        <span class="number" style="width: 90%;">10/100</span>
+                    </div>
+                    <span class="scheduleNumber">100%</span>
+                </div>
+                <div class="progressRows">
+                    <a href="javascript:void(0);">地下室</a>
+                    <span class="title">签证</span>
+                    <div class="processArea">
+                        <span class="dateTime">03.10</span>
+                        <div class="progressBarArea">
+                            <div class="progressBar" style="width: 90%;"></div>
+                        </div>
+                        <span class="number" style="width: 90%;">10/100</span>
+                    </div>
+                    <span class="scheduleNumber">100%</span>
+                </div>
+                <div class="progressRows">
+                    <a href="javascript:void(0);">地下室</a>
+                    <span class="title">签证</span>
+                    <div class="processArea">
+                        <span class="dateTime">03.10</span>
+                        <div class="progressBarArea">
+                            <div class="progressBar" style="width: 90%;"></div>
+                        </div>
+                        <span class="number" style="width: 90%;">10/100</span>
+                    </div>
+                    <span class="scheduleNumber">100%</span>
+                </div>
+                <div class="progressRows">
+                    <a href="javascript:void(0);">地下室</a>
+                    <span class="title">签证</span>
+                    <div class="processArea">
+                        <span class="dateTime">03.10</span>
+                        <div class="progressBarArea">
+                            <div class="progressBar" style="width: 90%;"></div>
+                        </div>
+                        <span class="number" style="width: 90%;">10/100</span>
+                    </div>
+                    <span class="scheduleNumber">100%</span>
+                </div>
+                <div class="gather">
+                    <span class="total">总计:<span class="number">67</span></span>
+                    <span class="completion">完工:<span class="number">67</span></span>
+                    <span class="processing">进行中:<span class="number">12</span></span>
+                    <span class="notStarted">未开工:<span class="number">3</span></span>
+                </div>
+                <img src="../images/moreDown.png" alt="" class="moreDown">
+            </div>
+            <!--项目进度区域-->
+
+            <!--材料信息区域-->
+            <div class="titleArea"><span class="materialTitle">材料信息</span></div>
+            <div class="materialInfoArea">
+                <div class="rows">
+                    <span class="title">ARC改型沥青乃根穿刺防水卷材</span>
+                    <div class="list">
+                        <div class="rows"><span class="title">生产中:</span><span class="value">1,221,09</span></div>
+                        <div class="rows"><span class="title">总数量:</span><span class="value">1,221,09</span></div>
+                        <div class="rows"><span class="title">累计发货:</span><span class="value">987,221,09</span></div>
+                        <div class="rows"><span class="title">发货中:</span><span class="value">987,221,09</span></div>
+                        <div class="rows"><span class="title">已接收:</span><span class="value">231,987,98</span></div>
+                    </div>
+                </div>
+                <div class="rows">
+                    <span class="title">ARC改型沥青乃根穿刺防水卷材</span>
+                    <div class="list">
+                        <div class="rows"><span class="title">生产中:</span><span class="value">1,221,09</span></div>
+                        <div class="rows"><span class="title">总数量:</span><span class="value">1,221,09</span></div>
+                        <div class="rows"><span class="title">累计发货:</span><span class="value">987,221,09</span></div>
+                        <div class="rows"><span class="title">发货中:</span><span class="value">987,221,09</span></div>
+                        <div class="rows"><span class="title">已接收:</span><span class="value">231,987,98</span></div>
+                    </div>
+                </div>
+                <div class="rows">
+                    <span class="title">ARC改型沥青乃根穿刺防水卷材</span>
+                    <div class="list">
+                        <div class="rows"><span class="title">生产中:</span><span class="value">1,221,09</span></div>
+                        <div class="rows"><span class="title">总数量:</span><span class="value">1,221,09</span></div>
+                        <div class="rows"><span class="title">累计发货:</span><span class="value">987,221,09</span></div>
+                        <div class="rows"><span class="title">发货中:</span><span class="value">987,221,09</span></div>
+                        <div class="rows"><span class="title">已接收:</span><span class="value">231,987,98</span></div>
+                    </div>
+                </div>
+                <div class="rows">
+                    <span class="title">ARC改型沥青乃根穿刺防水卷材</span>
+                    <div class="list">
+                        <div class="rows"><span class="title">生产中:</span><span class="value">1,221,09</span></div>
+                        <div class="rows"><span class="title">总数量:</span><span class="value">1,221,09</span></div>
+                        <div class="rows"><span class="title">累计发货:</span><span class="value">987,221,09</span></div>
+                        <div class="rows"><span class="title">发货中:</span><span class="value">987,221,09</span></div>
+                        <div class="rows"><span class="title">已接收:</span><span class="value">231,987,98</span></div>
+                    </div>
+                </div>
+                <div class="rows">
+                    <span class="title">ARC改型沥青乃根穿刺防水卷材</span>
+                    <div class="list">
+                        <div class="rows"><span class="title">生产中:</span><span class="value">1,221,09</span></div>
+                        <div class="rows"><span class="title">总数量:</span><span class="value">1,221,09</span></div>
+                        <div class="rows"><span class="title">累计发货:</span><span class="value">987,221,09</span></div>
+                        <div class="rows"><span class="title">发货中:</span><span class="value">987,221,09</span></div>
+                        <div class="rows"><span class="title">已接收:</span><span class="value">231,987,98</span></div>
+                    </div>
+                </div>
+            </div>
+            <!--材料信息区域-->
+
+            <!--质量信息区域-->
+            <div class="titleArea">
+                <span class="qualityTitle">质量信息</span>
+                <div class="right"></div>
+            </div>
+            <div class="qualityInfoArea">
+                <table class="table4_3">
+                    <tr>
+                        <th><input type="checkbox"></th>
+                        <th>SAMPLE</th>
+                        <th>SAMPLE</th>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>SAMPLE</td>
+                        <td>SAMPLE</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>SAMPLE</td>
+                        <td>SAMPLE</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>SAMPLE</td>
+                        <td>SAMPLE</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>SAMPLE</td>
+                        <td>SAMPLE</td>
+                    </tr>
+                </table>
+            </div>
+            <!--质量信息区域-->
+
+        </div>
+        <!--项目信息内容区域-->
+
+    </div>
+    <!--右部显示区域-->
+</div>
+<!--内容区域-->
+
+<!--底部区域-->
+<div class="bottom">
+    <div class="showArea">
+        <div class="left">
+            <span class="title">友情链接</span>
+            <div class="list">
+                <a href="javascript:void(0);">新浪防水频道</a><a href="javascript:void(0);">新浪防水频道</a><a
+                    href="javascript:void(0);">新浪防水频道</a><a href="javascript:void(0);">新浪防水频道</a><a
+                    href="javascript:void(0);">新浪防水频道</a><a href="javascript:void(0);">新浪防水频道</a><a
+                    href="javascript:void(0);">新浪防水频道</a><a href="javascript:void(0);">新浪防水频道</a><a
+                    href="javascript:void(0);">新浪防水频道</a><a href="javascript:void(0);">新浪防水频道</a><a
+                    href="javascript:void(0);">新浪防水频道</a><a href="javascript:void(0);">新浪防水频道</a><a
+                    href="javascript:void(0);">新浪防水频道</a>
+            </div>
+            <div class="loginArea">
+                <input type="text" class="usrName">
+                <input type="password" class="password">
+                <a href="javascript:void(0);">登陆</a>
+            </div>
+            <div class="btnArea">
+
+            </div>
+            <span class="remark">版权所有 1996-2014 北京东方雨虹防水技术股份有限公司 京ICP备06041138号 京公网安备11010502020411</span>
+        </div>
+        <div class="right">
+
+        </div>
+    </div>
+</div>
+<!--底部区域-->
 </body>
 </html>

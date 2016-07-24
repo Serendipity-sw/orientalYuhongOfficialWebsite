@@ -1,0 +1,262 @@
+/*头部区域*/
+body >.headArea{
+
+}
+body >.headArea>.content{
+
+}
+body >.headArea>.content>.icon{
+
+}
+
+/*头部菜单栏*/
+body >.headArea>.content>.menuList{
+
+}
+body >.headArea>.content>.menuList>.title{
+
+}
+body >.headArea>.content>.menuList>.select{
+
+}
+/*头部菜单栏*/
+
+/*用户区域*/
+body >.headArea>.content>.userArea{
+
+}
+body >.headArea>.content>.userArea>.userPhoto{
+
+}
+body >.headArea>.content>.userArea>.userInfoArea{
+
+}
+body >.headArea>.content>.userArea>.userInfoArea>.userName{
+
+}
+body >.headArea>.content>.userArea>.userInfoArea>.remark{
+
+}
+body >.headArea>.content>.userArea>.userInfoArea>ul{
+
+}
+body >.headArea>.content>.userArea>.userInfoArea>ul>li{
+
+}
+/*用户区域*/
+
+/*头部区域*/
+
+
+/*内容区域*/
+body>.content{
+
+}
+
+/*左侧列表区域*/
+body>.content>.leftArea{
+
+}
+
+/*左侧菜单区域*/
+body>.content>.leftArea{
+
+}
+body>.content>.leftArea>.title{
+
+}
+body>.content>.leftArea>.select{
+
+}
+/*左侧菜单区域*/
+
+/*材料项目区域*/
+body>.content>.leftArea>.materialListArea{
+
+}
+body>.content>.leftArea>.constructionListArea{
+
+}
+
+/*筛选选择区域*/
+body>.content>.leftArea>.div:nth-child(n+2)>.selectArea{
+
+}
+body>.content>.leftArea>.div:nth-child(n+2)>.selectArea>span{
+
+}
+body>.content>.leftArea>.div:nth-child(n+2)>.selectArea>.select{
+
+}
+/*筛选选择区域*/
+
+/*列表区域*/
+body>.content>.leftArea>.div:nth-child(n+2)>.projectList{
+
+}
+body>.content>.leftArea>.div:nth-child(n+2)>.projectList>.rows{
+
+}
+body>.content>.leftArea>.div:nth-child(n+2)>.projectList>.rows>.projectEndIcon{
+
+}
+body>.content>.leftArea>.div:nth-child(n+2)>.projectList>.rows>.endProject{
+
+}
+/*列表区域*/
+
+/*材料项目区域*/
+
+/*左侧列表区域*/
+
+/*右部显示区域*/
+body>.content>.contentArea{
+
+}
+
+/*头部选项*/
+body>.content>.contentArea .headSelectArea{
+
+}
+body>.content>.contentArea .headSelectArea>span{
+
+}
+body>.content>.contentArea .headSelectArea>.select{
+
+}
+/*头部选项*/
+
+/*项目信息内容区域*/
+body>.content>.contentArea .projectInfoArea{
+
+}
+
+/*项目信息区域*/
+body>.content>.contentArea .projectInfoArea>.titleArea{
+
+}
+body>.content>.contentArea .projectInfoArea>.titleArea>span{
+
+}
+body>.content>.contentArea .projectInfoArea>.titleArea>.projectInfoTitle{
+
+}
+body>.content>.contentArea .projectInfoArea>.projectInfo{
+
+}
+body>.content>.contentArea .projectInfoArea>.projectInfo>.left{
+
+}
+body>.content>.contentArea .projectInfoArea>.projectInfo>.left>.userPhoto{
+
+}
+body>.content>.contentArea .projectInfoArea>.projectInfo>.left>.userName{
+
+}
+body>.content>.contentArea .projectInfoArea>.projectInfo>.left>.remark{
+
+}
+body>.content>.contentArea .projectInfoArea>.projectInfo>.right{
+
+}
+body>.content>.contentArea .projectInfoArea>.projectInfo>.right>.leftArea{
+
+}
+body>.content>.contentArea .projectInfoArea>.projectInfo>.right>.rightArea{
+
+}
+body>.content>.contentArea .projectInfoArea>.projectInfo>.right>div>.rows{
+
+}
+body>.content>.contentArea .projectInfoArea>.projectInfo>.right>div>.rows>.title{
+
+}
+body>.content>.contentArea .projectInfoArea>.projectInfo>.right>div>.rows>.value{
+
+}
+/*项目信息区域*/
+
+/*项目进度区域*/
+/*项目进度区域*/
+
+/*材料信息区域*/
+body>.content>.contentArea .projectInfoArea>.titleArea>.materialTitle{
+
+}
+body>.content>.contentArea .projectInfoArea>.materialInfoArea{
+
+}
+body>.content>.contentArea .projectInfoArea>.materialInfoArea>.rows{
+
+}
+body>.content>.contentArea .projectInfoArea>.materialInfoArea>.rows>.title{
+
+}
+body>.content>.contentArea .projectInfoArea>.materialInfoArea>.rows>.list{
+
+}
+body>.content>.contentArea .projectInfoArea>.materialInfoArea>.rows>.list>.rows{
+
+}
+body>.content>.contentArea .projectInfoArea>.materialInfoArea>.rows>.list>.rows>.title{
+
+}
+body>.content>.contentArea .projectInfoArea>.materialInfoArea>.rows>.list>.rows>.value{
+
+}
+/*材料信息区域*/
+
+/*质量信息区域*/
+body>.content>.contentArea .projectInfoArea>.titleArea>.qualityTitle{
+
+}
+body>.content>.contentArea .projectInfoArea>.qualityInfoArea{
+
+}
+/*质量信息区域*/
+
+/*项目信息内容区域*/
+
+/*右部显示区域*/
+
+/*内容区域*/
+
+
+/*底部区域*/
+body>.bottom{
+
+}
+body>.bottom>.showArea{
+
+}
+body>.bottom>.showArea>.left{
+
+}
+body>.bottom>.showArea>.left>.title{
+
+}
+body>.bottom>.showArea>.left>.list{
+
+}
+body>.bottom>.showArea>.left>.list>a{
+
+}
+body>.bottom>.showArea>.left>.loginArea{
+
+}
+body>.bottom>.showArea>.left>.loginArea>input{
+
+}
+body>.bottom>.showArea>.left>.loginArea>a{
+
+}
+body>.bottom>.showArea>.left>.btnArea{
+
+}
+body>.bottom>.showArea>.left>.remark{
+
+}
+body>.bottom>.showArea>.right{
+
+}
+/*底部区域*/
