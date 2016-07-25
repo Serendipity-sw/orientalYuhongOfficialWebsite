@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>销售合同列表</title>
+    <link href="../css/base.css" rel="stylesheet" />
+    <link href="../css/grid.css" rel="stylesheet" />
+    <link href="../css/Font-Awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="../css/pagination.css" rel="stylesheet" />
+    <link href="../css/contractList.css" rel="stylesheet" />
+
+
+    <script src="../js/jquery-2.1.0.min.js"></script>
+    <!--进度条插件-->
+    <script src="../js/radialIndicator.min.js"></script>
+
+    <script src="../js/jquery.pagination.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!--内容区域-->
+        <div class="content">
+            <!-- 搜索框 -->
+            <div class="searchArea">
+                <div class="row">
+                    <div class="col-md-3 col-sm-3"></div>
+                    <div class="col-md-6 col-sm-6 text-left">
+                        <div class="searchInput">
+                            <div class="pull-left">
+                                <input type="text" name="name" value="" placeholder="按照日期、范围销售组织、合同编码进行查询" />
+                            </div>
+                            <div class="pull-left">
+                                <button type="button" class="btn-red"><i class="fa fa-search" aria-hidden="true"></i></button>
+                            </div>
+                            <div class="clearfix"></div>
+                            
+                        </div>
+                        <div class="searchSort">
+                            <div class="sortTitle pull-left">
+                                <img src="../images/contractList/project_type.png" />
+                                项目类型
+                            </div>
+                            <div class="sortContent pull-left">
+                                <ul>
+                                    <li>全部</li>
+                                    <li>销售合同（15）</li>
+                                    <li class="active">销售合同（19）</li>
+                                </ul>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3"></div>
+                </div>
+            </div>  
+
+            <!-- 内容列表 -->
+            <div class="projectArea">
+                <!-- 单个项目 -->
+                <div class="project">
+                    <div class="pull-left imageRows">
+                        <img class="img-responsive" src="../images/contractList/user.png" />
+                    </div>
+                    <div class="pull-left infoRows">
+                        <div class="title">北京天安门</div>
+                        <div class="infoArea">
+                            <div class="row">
+                                <div class="col-sm-4 col-md-4">
+                                    <div><span class="infoTitle">合同编码：</span><span>23432423432432424</span></div>
+                                    <div><span class="infoTitle">合同开始时间：</span><span>2016-01-25</span></div>
+                                    <div><span class="infoTitle">合同总价：</span><span>300000元</span></div>
+                                </div>
+                                <div class="col-sm-4 col-md-4">
+                                    <div><span class="infoTitle">合同名称：</span><span>北京摸摸幼儿园</span></div>
+                                    <div><span class="infoTitle">合同结束时间：</span><span>2016-01-25</span></div>
+                                    <div><span class="infoTitle">销售组织名称：</span><span>小蜜蜂销售小组</span></div>
+                                </div>
+                                <div class="col-sm-4 col-md-4">
+                                    <div><span class="infoTitle">订单状态：</span><span>未开工</span></div>
+                                    <div><span class="infoTitle">业务员姓名：</span><span>徐建华</span></div>
+                                    <div><span class="infoTitle">客户名称：</span><span>北京摸摸幼儿园</span></div>
+                                </div>
+                            </div>
+                           
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <div class="pull-right percentageRows">
+                        <div class="percentageArea">
+                            <div class="percentage" data-score="60"></div>
+                        </div>
+                        <div class="percentageTitle"><span>施工中</span></div>
+                    </div>
+                </div>
+
+                <!-- 单个项目 -->
+                <div class="project">
+                    <div class="pull-left imageRows">
+                        <img class="img-responsive" src="../images/contractList/user.png" />
+                    </div>
+                    <div class="pull-left infoRows">
+                        <div class="title">北京天安门</div>
+                        <div class="infoArea">
+                            <div class="row">
+                                <div class="col-sm-4 col-md-4">
+                                    <div><span class="infoTitle">合同编码：</span><span>23432423432432424</span></div>
+                                    <div><span class="infoTitle">合同开始时间：</span><span>2016-01-25</span></div>
+                                    <div><span class="infoTitle">合同总价：</span><span>300000元</span></div>
+                                </div>
+                                <div class="col-sm-4 col-md-4">
+                                    <div><span class="infoTitle">合同名称：</span><span>北京摸摸幼儿园</span></div>
+                                    <div><span class="infoTitle">合同结束时间：</span><span>2016-01-25</span></div>
+                                    <div><span class="infoTitle">销售组织名称：</span><span>小蜜蜂销售小组</span></div>
+                                </div>
+                                <div class="col-sm-4 col-md-4">
+                                    <div><span class="infoTitle">订单状态：</span><span>未开工</span></div>
+                                    <div><span class="infoTitle">业务员姓名：</span><span>徐建华</span></div>
+                                    <div><span class="infoTitle">客户名称：</span><span>北京摸摸幼儿园</span></div>
+                                </div>
+                            </div>
+
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <div class="pull-right percentageRows">
+                        <div class="percentageArea">
+                            <div class="percentage" data-score="60"></div>
+                        </div>
+                        <div class="percentageTitle"><span>施工中</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="M-box1" style="float: right; margin: 2px -5px 10px 0;"></div>
+        </div>
+    </div>
+    
+    <script src="../js/contractList.js"></script>
+    
+</body>
+</html>

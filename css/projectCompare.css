@@ -188,22 +188,4 @@
     margin-right:10px;
 }
 
- /* common */
- .clearfix {
-    clear:both;
-}
-.pull-right {
-  float: right !important;
-}
-.pull-left {
-  float: left !important;
-}
-img {
-  vertical-align: middle;
-  border:0px;
-}
-.img-responsive {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
+ 
